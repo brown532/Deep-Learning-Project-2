@@ -1,5 +1,5 @@
-.models
-.images
+/models
+/images
 Flickr8kblackandwhite1dim.npy
 Flickr8kblackandwhite-002.npy
 flickr8k_shuffled.npy
