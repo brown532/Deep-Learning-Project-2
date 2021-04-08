@@ -16,18 +16,21 @@
 - **preprocessing**:<br/>
 	`preprocessing.py` goes through a selected folder containing the image dataset, crops these images to `128x128x3`. It then shuffles and saves the dataset. `generate_black_and_white_images.py` creates and saves the greyscale versions of the images.<br/>
 
-- **pix2pix**:<br/>
+- **pix2pix**: Utilized model<br/>
 
 
-- **Alternate considered model**:<br/>
-Contains an implementation of a model for the same task.
+- **Alternate considered model**: Contains an implementation of a model for the same task.
 
 
 ## Results
-##Flickr8k Model
-<img src="results/" width="700"><br/>
-##Flickr30k Model
-<img src="results/emotion_recognition.png" width="700" ><br/>
+## Loss progression
+<img src="results/original.png" width="700"><br/>
+## Flickr8k Model
+Top - Greyscale image, Middle - model generated image, Bottom - Ground Truth
+<img src="results/flickr8k.png" width="700"><br/>
+## Flickr30k Model
+Top - Greyscale image, Middle - model generated image, Bottom - Ground Truth
+<img src="results/flickr30k.png" width="700" ><br/>
 
 
 ## Authors
